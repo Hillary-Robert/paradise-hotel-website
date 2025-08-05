@@ -53,7 +53,7 @@ const HeroSection = ({ list }: { list: HeroListProp[] }) => {
       </div>
 
       {/* Bottom info bar */}
-      <div className="absolute inset-x-0 bottom-20 flex flex-col sm:flex-row justify-between bg-white py-8 px-6 md:px-[7.5rem] gap-6 sm:gap-0 rounded-lg max-w-full overflow-x-auto">
+      <div className="absolute inset-x-0 bottom-20 flex flex-wrap flex-row sm:flex-row justify-between bg-white py-8 px-6 md:px-[7.5rem] gap-6 sm:gap-0 rounded-lg max-w-full overflow-x-auto">
         {herolistSample.map(({ data, icon: Icon, info }, index) => (
           <div
             key={index}
