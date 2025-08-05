@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
