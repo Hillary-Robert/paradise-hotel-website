@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { useState } from "react";
+import { navLinksProps } from "@/interface"; 
+import { navLinksSample } from "@/constants";
 
-const Header: React.FC = () => {
+
+const Header = ({links}:{links: navLinksProps[]}) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggle = () => setMenuOpen((prev) => !prev);
@@ -35,15 +38,15 @@ const Header: React.FC = () => {
           role="navigation"
         >
           <ul className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-[2rem] mt-4 md:mt-0">
-            {["Home", "Explore", "Rooms", "About", "Contact"].map(
-              (links, index) => (
+            {navLinksSample.map(
+              (navlinks, index) => (
                 <li key={index}>
                   <Link
-                    href="/"
+                    href={navlinks.link}
                     className="text-black hover:text-[#7C6A46] transition-colors duration-200 block py-2 focus:outline-none focus:ring-2 focus:ring-[#7C6A46] rounded"
                     onClick={closeMenu}
                   >
-                    {links}
+                    {navlinks.name}
                   </Link>
                 </li>
               )

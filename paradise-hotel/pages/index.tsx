@@ -1,6 +1,8 @@
 import FacilitySection from "@/components/hompage/FacilitySection";
 import HeroSection from "@/components/hompage/HeroSection";
-import { facilitySample, herolistSample } from "@/constants";
+import LuxurySection from "@/components/hompage/LuxurySection";
+import TestimonialSection from "@/components/hompage/TestimonialSection";
+import { facilitySample, herolistSample, luxurySmple, testimonialSample } from "@/constants";
 
 
 export default function Home() {
@@ -9,6 +11,10 @@ export default function Home() {
       <HeroSection list={herolistSample}/>
 
       <FacilitySection facility={facilitySample}/>
+
+      <LuxurySection luxury={luxurySmple}/>
+
+      <TestimonialSection testimonial={testimonialSample}/>
     </div>
      
   );
