@@ -38,3 +38,21 @@ export interface testimonialProp{
   name: string
 }
 
+
+
+export interface HotelStat {
+  image: string;     
+  value: string;       
+  label: string;       
+  description: string; 
+}
+
+
+
+export interface TeamMember {
+  image: string;
+  name: string;
+  role: string;
+  alt: string;
+}
+

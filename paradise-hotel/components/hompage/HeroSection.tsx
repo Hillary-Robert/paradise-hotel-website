@@ -8,7 +8,6 @@ const HeroSection = ({ list }: { list: HeroListProp[] }) => {
   return (
     <section className="relative py-10 mt-[8rem] px-6 md:px-[7.5rem]">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
-        
         <div className="flex flex-col gap-2 w-full lg:max-w-[55%] mt-10">
           <h2 className="dancing-script text-[#7C6A46] text-8xl md:text-5xl lg:text-6xl mb-2 lg:mb-4">
             Paradise View
@@ -19,7 +18,8 @@ const HeroSection = ({ list }: { list: HeroListProp[] }) => {
           </h1>
 
           <p className="text-base md:text-lg text-gray-700 mt-2">
-            Every moment feels like the first time <br />in paradise view
+            Every moment feels like the first time <br />
+            in paradise view
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 mt-4">
@@ -52,8 +52,7 @@ const HeroSection = ({ list }: { list: HeroListProp[] }) => {
         </div>
       </div>
 
-     
-      <div className="absolute inset-x-0 bottom-20 flex flex-wrap flex-row sm:flex-row justify-between bg-white py-8 px-6 md:px-[7.5rem] gap-6 sm:gap-0 rounded-lg max-w-full overflow-x-auto">
+      <div className="absolute inset-x-0 bottom-12 flex flex-wrap flex-row sm:flex-row justify-between bg-white py-8 px-6 md:px-[7.5rem] gap-6 sm:gap-0 rounded-lg max-w-full overflow-x-auto">
         {herolistSample.map(({ data, icon: Icon, info }, index) => (
           <div
             key={index}
@@ -66,7 +65,7 @@ const HeroSection = ({ list }: { list: HeroListProp[] }) => {
             <div className="text-left">
               <h3 className="font-semibold text-mdd">{data}</h3>
               <p className="flex items-center gap-1 text-sm text-gray-600">
-                {info} <MdOutlineArrowDropDown className="text-lg"/>
+                {info} <MdOutlineArrowDropDown className="text-lg" />
               </p>
             </div>
           </div>

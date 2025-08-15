@@ -1,4 +1,4 @@
-import { facilityProp, HeroListProp, luxuryProp, navLinksProps, testimonialProp } from "@/interface";
+import { facilityProp, HeroListProp, HotelStat, luxuryProp, navLinksProps, TeamMember, testimonialProp } from "@/interface";
 import { FaLocationDot } from "react-icons/fa6"
 import { FaHotel } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
@@ -204,3 +204,50 @@ export const navLinksSample: navLinksProps[]=[
     link: "/contact"
   },
 ]
+
+
+
+export const hstats: HotelStat[] = [
+  {
+    image: "/assets/luxury3.jpg",
+    value: "50+",
+    label: "Rooms",
+    description: "Spacious, well-furnished, and designed for comfort."
+  },
+  {
+    image: "/assets/luxury2.jpg",
+    value: "1000+",
+    label: "Happy Guests",
+    description: "Consistently delivering top-rated guest experiences."
+  },
+  {
+    image: "/assets/luxury1.jpg",
+    value: "10+",
+    label: "Years in Service",
+    description: "A decade of hospitality excellence and community trust."
+  }
+];
+
+
+
+
+export const team: TeamMember[] = [
+  {
+    image: "/assets/test1.jpg",
+    name: "Hillary Robert",
+    role: "Chief Executive Officer",
+    alt: "CEO Hillary Robert"
+  },
+  {
+    image: "/assets/test2.jpg",
+    name: "Sarah Thompson",
+    role: "Guest Relations Manager",
+    alt: "Guest Relations Manager"
+  },
+  {
+    image: "/assets/test3.jpg",
+    name: "Michael Okoro",
+    role: "Head Chef",
+    alt: "Head Chef"
+  }
+];
