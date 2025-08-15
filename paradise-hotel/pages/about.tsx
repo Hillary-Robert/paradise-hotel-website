@@ -18,7 +18,7 @@ const About: React.FC = () => {
           <p className="text-lg max-w-3xl">
             At <strong>Nexus Paradise Hotel</strong>, we blend comfort, style,
             and exceptional service to offer our guests an unforgettable
-            experience. Whether you're here for business, leisure, or a special
+            experience. Whether you&apos;re here for business, leisure, or a special
             occasion, our tranquil environment and dedicated team ensure that
             every moment of your stay is truly relaxing.
           </p>
@@ -35,8 +35,8 @@ const About: React.FC = () => {
             Founded with a vision to redefine modern hospitality, Nexus Paradise
             started as a family-run boutique hotel and has grown into a trusted
             name for quality accommodation and personalized care. Our roots are
-            grounded in warmth and tradition, yet we continuously evolve to meet
-            the needs of today’s travelers.
+            grounded in warmth and tradition, yet we continuously evolve to meet the needs of today&apos;s travelers.
+
           </p>
         </div>
         <div>
