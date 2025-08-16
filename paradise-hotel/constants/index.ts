@@ -1,9 +1,23 @@
-import { facilityProp, HeroListProp, HotelStat, luxuryProp, navLinksProps, TeamMember, testimonialProp } from "@/interface";
+import { facilityProp, HeroListProp, HotelStat, luxuryProp, navLinksProps, Room, TeamMember, testimonialProp } from "@/interface";
 import { FaLocationDot } from "react-icons/fa6"
 import { FaHotel } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaCalendarMinus } from "react-icons/fa"
 import { FaCalendarPlus } from "react-icons/fa"
+import { FaStar } from "react-icons/fa"
+import { FaQuoteLeft } from "react-icons/fa"
+import { FaQuoteRight } from "react-icons/fa";
+import {
+  FaWifi,
+  FaSwimmingPool,
+  FaGamepad,
+  FaUtensils,
+  FaDumbbell,
+  FaTshirt,
+  FaBolt,
+  FaParking
+} from "react-icons/fa";
+
 
 export const herolistSample: HeroListProp[]=[
 
@@ -70,16 +84,7 @@ export const luxurySmple: luxuryProp[] = [
 ];
 
 
-import {
-  FaWifi,
-  FaSwimmingPool,
-  FaGamepad,
-  FaUtensils,
-  FaDumbbell,
-  FaTshirt,
-  FaBolt,
-  FaParking
-} from "react-icons/fa";
+
 
 export const facilitySample: facilityProp[] = [
   {
@@ -124,9 +129,7 @@ export const facilitySample: facilityProp[] = [
   },
 ];
 
-import { FaStar } from "react-icons/fa"
-import { FaQuoteLeft } from "react-icons/fa"
-import { FaQuoteRight } from "react-icons/fa";
+
 
 export const testimonialSample: testimonialProp[] = [
   {
@@ -250,4 +253,130 @@ export const team: TeamMember[] = [
     role: "Head Chef",
     alt: "Head Chef"
   }
+];
+
+
+
+
+export const rooms: Room[] = [
+  {
+    id: 1,
+    name: "The Royal Room",
+    price: "₦190,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "ac"],
+    description:
+      "Experience true elegance with The Royal Room, featuring premium furnishings, modern amenities, and a serene atmosphere fit for royalty.",
+  },
+  {
+    id: 2,
+    name: "The Deluxe Suite",
+    price: "₦250,000",
+    available: false,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "spa"],
+    description:
+      "Designed for comfort and relaxation, The Deluxe Suite offers a spacious layout with spa access, luxurious bedding, and stylish décor.",
+  },
+  {
+    id: 3,
+    name: "The Family Room",
+    price: "₦150,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "kitchen"],
+    description:
+      "Perfect for families, this room includes ample space, a functional kitchen, and cozy interiors to make you feel right at home.",
+  },
+  {
+    id: 4,
+    name: "Executive Suite",
+    price: "₦300,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "ac", "mini-bar"],
+    description:
+      "The Executive Suite blends sophistication with comfort, offering a mini-bar, spacious work area, and elegant city views.",
+  },
+  {
+    id: 5,
+    name: "Honeymoon Suite",
+    price: "₦280,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "jacuzzi", "balcony"],
+    description:
+      "Celebrate love in the Honeymoon Suite, featuring a private jacuzzi, romantic décor, and a balcony with breathtaking views.",
+  },
+  {
+    id: 6,
+    name: "The Penthouse",
+    price: "₦500,000",
+    available: false,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "spa", "private-pool", "kitchen"],
+    description:
+      "Our luxurious Penthouse offers unmatched exclusivity with a private pool, spa access, modern kitchen, and panoramic city views.",
+  },
+  {
+    id: 7,
+    name: "Garden View Room",
+    price: "₦120,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "balcony"],
+    description:
+      "Relax in the Garden View Room with fresh natural light, a private balcony, and stunning views of lush greenery.",
+  },
+  {
+    id: 8,
+    name: "Ocean View Suite",
+    price: "₦350,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "balcony", "mini-bar"],
+    description:
+      "Wake up to the sound of the waves in the Ocean View Suite, offering a mini-bar, private balcony, and breathtaking seaside views.",
+  },
+  {
+    id: 9,
+    name: "Budget Single Room",
+    price: "₦80,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["wifi", "fan"],
+    description:
+      "A simple yet cozy option for solo travelers, the Budget Single Room offers all the essentials at an affordable price.",
+  },
+  {
+    id: 10,
+    name: "Presidential Suite",
+    price: "₦600,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "spa", "private-pool", "butler-service"],
+    description:
+      "The ultimate luxury experience, the Presidential Suite includes a private pool, spa access, and dedicated butler service for a truly lavish stay.",
+  },
+  {
+    id: 11,
+    name: "City View Room",
+    price: "₦200,000",
+    available: true,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "ac", "balcony"],
+    description:
+      "Enjoy vibrant cityscapes from the City View Room, offering modern comfort with a private balcony and full amenities.",
+  },
+  {
+    id: 12,
+    name: "Luxury Loft",
+    price: "₦400,000",
+    available: false,
+    image: "/assets/luxury3.jpg",
+    features: ["tv", "wifi", "jacuzzi", "mini-bar", "kitchen"],
+    description:
+      "A stylish two-level retreat, the Luxury Loft boasts a jacuzzi, kitchen, and elegant design for an unforgettable stay.",
+  },
 ];

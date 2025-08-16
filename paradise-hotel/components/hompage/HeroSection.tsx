@@ -3,12 +3,13 @@ import { herolistSample } from "@/constants";
 import React from "react";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import { HeroListProp } from "@/interface";
+import Button from "@/constants/button";
 
 const HeroSection = ({ list }: { list: HeroListProp[] }) => {
   return (
     <section className="relative py-10 mt-[8rem] px-6 md:px-[7.5rem]">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
-        <div className="flex flex-col gap-2 w-full lg:max-w-[55%] mt-10">
+        <div className="flex flex-col gap-2 w-full lg:max-w-[55%] mt-5">
           <h2 className="dancing-script text-[#7C6A46] text-8xl md:text-5xl lg:text-6xl mb-2 lg:mb-4">
             Paradise View
           </h2>
@@ -23,14 +24,14 @@ const HeroSection = ({ list }: { list: HeroListProp[] }) => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 mt-4">
-            <button
-              aria-label="Book your stay now"
-              className="bg-[#7C6A46] hover:bg-[#645333] text-white font-semibold 
-                         py-4 px-8 md:px-12 rounded-full shadow-md transition-all 
-                         duration-300 text-lg sm:w-auto"
-            >
-              Book now
-            </button>
+            
+
+
+            <Button aria-label="Book your stay now" className="bg-[#7C6A46] hover:bg-[#645333] text-white font-semibold 
+                         py-2 px-6 rounded-full shadow-md transition-all 
+                         duration-300 text-lg sm:w-auto self-start">
+                Book now
+              </Button>
 
             <button
               aria-label="Take a tour"
@@ -71,14 +72,13 @@ const HeroSection = ({ list }: { list: HeroListProp[] }) => {
           </div>
         ))}
 
-        <button
-          aria-label="Book now"
+        <Button
           className="bg-[#7C6A46] hover:bg-[#645333] text-white font-semibold 
                          py-2 px-6 rounded shadow-md transition-all 
                          duration-300 text-lg sm:w-auto self-center"
         >
           Book now
-        </button>
+        </Button>
       </div>
     </section>
   );

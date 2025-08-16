@@ -19,7 +19,7 @@ const FacilitySection = ({ facility }: { facility: facilityProp[] }) => {
           return (
             <div
               key={index}
-              className="flex flex-col  items-center justify-center p-8 bg-white shadow-md rounded-xl transition hover:shadow-lg hover:bg-[#7C6A46] hover:text-white text-[#7C6A46] h-[15rem]"
+              className="flex flex-col  items-center justify-center p-8 bg-white shadow-md rounded-xl transition hover:shadow-lg  hover:bg-[#645333] hover:text-white text-[#7C6A46] h-[15rem]"
             >
               <Icon className="text-5xl mb-3" />
               <p className=" font-medium text-sm md:text-base">

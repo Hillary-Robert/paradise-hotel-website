@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { navLinksProps } from "@/interface"; 
 import { navLinksSample } from "@/constants";
+import Button from "@/constants/button";
 
 
 const Header = ({links}:{links: navLinksProps[]}) => {
@@ -55,14 +56,13 @@ const Header = ({links}:{links: navLinksProps[]}) => {
         </nav>
 
         <div className="w-full md:w-auto mt-4 md:mt-0 md:ml-4">
-          <button
-            aria-label="Book now"
-            className="bg-[#7C6A46] hover:bg-[#645333] text-white font-semibold 
+
+        <Button className="bg-[#7C6A46] hover:bg-[#645333] text-white font-semibold 
                          py-2 px-6 rounded shadow-md transition-all 
-                         duration-300 text-lg sm:w-auto self-center"
-          >
-            Book now
-          </button>
+                         duration-300 text-lg sm:w-auto self-center">
+                Book now
+              </Button>
+          
         </div>
       </div>
     </header>
