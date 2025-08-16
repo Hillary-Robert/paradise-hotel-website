@@ -1,4 +1,5 @@
 import TourCard from "@/components/explorePage/tourCard";
+import { IoMdPlayCircle } from "react-icons/io";
 
 const ExplorePage = () => {
   return (
@@ -12,7 +13,7 @@ const ExplorePage = () => {
         <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 h-full flex flex-col justify-center items-center px-6 md:px-[7.5rem] text-white">
-          <h2 className="text-3xl font-bold text-center mb-12">Take a tour</h2>
+          <IoMdPlayCircle className="text-8xl text-green"/>
         </div>
       </div>
 

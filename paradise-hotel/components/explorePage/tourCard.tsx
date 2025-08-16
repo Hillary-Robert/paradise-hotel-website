@@ -2,13 +2,12 @@ import { TourCardProps } from "@/interface";
 
 const TourCard = ({ title, description, image }: TourCardProps) => {
   return (
-    <div className="relative mb-16">
+    <div className="relative mb-20">
       <img
         src={image}
         alt={title}
-        width={1200}
-        height={600}
-        className="rounded-2xl object-cover w-full h-[400px]"
+        
+        className="rounded-2xl object-cover w-full h-[500px]"
       />
 
       {/* Description Card Overlay */}
