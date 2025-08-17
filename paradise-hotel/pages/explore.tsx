@@ -9,7 +9,7 @@ const ExplorePage = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url("/assets/luxury1.jpg")` }}
         />
-        {/* Overlay */}
+       
         <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 h-full flex flex-col justify-center items-center px-6 md:px-[7.5rem] text-white">

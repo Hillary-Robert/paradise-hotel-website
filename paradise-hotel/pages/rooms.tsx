@@ -8,14 +8,14 @@ import Card from "@/components/roomPage/roomCard";
 function RoomsPage() {
   return (
     <section className="py-12">
-      <div className="relative w-full text-center overflow-hidden h-[70vh] mb-[4rem]">
+      <div className="relative w-full text-center overflow-hidden h-[90vh] mb-[4rem]">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url("/assets/luxury1.jpg")` }}
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 h-full flex flex-col justify-center items-center px-6 md:px-[7.5rem] text-white">
-          <h2 className="text-6xl font-bold text-center mb-8">
+          <h2 className="dancing-script text-8xl font-bold text-center mb-8">
             Rooms and Suites
           </h2>
           <p className="text-lg max-w-3xl">

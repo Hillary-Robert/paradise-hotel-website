@@ -14,7 +14,7 @@ const About: React.FC = () => {
         <div className="absolute inset-0 bg-black/50" />
        
         <div className="relative z-10 h-full flex flex-col justify-center items-center px-6 md:px-[7.5rem] text-white">
-          <h2 className="text-6xl font-bold mb-6 text-white">About Us</h2>
+          <h2 className="dancing-script text-8xl font-bold mb-6 text-white">About Us</h2>
           <p className="text-lg max-w-3xl">
             At <strong>Nexus Paradise Hotel</strong>, we blend comfort, style,
             and exceptional service to offer our guests an unforgettable

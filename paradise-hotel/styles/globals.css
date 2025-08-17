@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-body {
+body, html {
   font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
 }
 
 

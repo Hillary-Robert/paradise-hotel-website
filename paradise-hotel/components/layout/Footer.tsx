@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     <footer className="mt-4 bg-[#7C6A46] text-white">
       <div className="flex flex-wrap md:flex-nowrap justify-between gap-10 px-6 py-10 md:px-[7.5rem]">
         <div className="flex-1 min-w-[250px]">
-          <h3 className="text-2xl font-bold mb-4">Paradise View</h3>
+          <h3 className="dancing-script text-4xl font-bold mb-4">Paradise View</h3>
           <p className="text-sm leading-relaxed">
             Experience luxury and comfort like never before at Paradise View.
             Our dedicated staff ensures every moment of your stay is relaxing,
@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        {/* Navigation Columns */}
+        
 
         {/* Column 1 */}
         <div className="min-w-[140px]">
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Column 2 */}
+       
         <div className="min-w-[140px]">
           <h4 className="text-lg font-semibold mb-3">Resources</h4>
           <ul className="space-y-2 text-sm">
@@ -120,7 +120,7 @@ const Footer: React.FC = () => {
                hover:border-[#7C6A46] hover:bg-gray-50"
               />
 
-              {/* Button */}
+             
               <button
                 type="submit"
                 className="absolute right-1 top-1 bottom-1 px-6 rounded-full text-white font-semibold
